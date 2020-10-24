@@ -22,8 +22,6 @@ function posl($num){
     $n = posl($num-1)+posl($num-2);
     return $n;
 }
-
-die();
 ?>
 <html>
 <body>
